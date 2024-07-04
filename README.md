@@ -2,7 +2,7 @@
 
 # Menu de navegação interativo
 
-## prof. Luk
+## Prof. Luk
 
 - Jossana Kelly Tavares Marques
 - Marisa Mayumi Morita Ouchi
