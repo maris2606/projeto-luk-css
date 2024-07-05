@@ -14,8 +14,6 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
     background: linear-gradient(145deg,#f3d4a2, #d87997,#f79492,#a6e1ec);
 
 }
@@ -23,8 +21,9 @@ body{
 
 header{
     height: 20%;
-    background-color: var(--salmao);
-    padding: 10px 40px;
+    background-color: var(--rosa-escuro);
+    padding: 20px 55px;
+    color: var(--branco);
 }
 
 
@@ -34,11 +33,13 @@ section{
     gap: 15px;
     justify-content: center;
     padding: 25px 0;
+
+    min-height: 80vh;
 }
 
 section .link-container{
     background-color: var(--rosa-escuro);
-    width: 30%;
+    width: 20%;
     height: 25%;
 }
 
@@ -53,7 +54,7 @@ section .link-container{
 }
 
 .link-container a img{
-    height: 70%;
+    max-height: 30%;
 }
 
 .link-container a p{
@@ -63,7 +64,8 @@ section .link-container{
 
 footer{
     height: 20%;
-    background-color: var(--laranja);
-    padding: 10px 40px;
+    background-color: var(--rosa-escuro);
+    padding: 20px 55px;
     text-align: center;
+    color: var(--branco);
 }
