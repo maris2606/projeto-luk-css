@@ -38,28 +38,27 @@ section{
 }
 
 section .link-container{
-    background-color: var(--rosa-escuro);
     width: 20%;
     height: 25%;
+    transition: transform 300ms ease-in-out;
 }
 
 .link-container a{
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    height: auto;
-
+    
+    filter: brightness(60%);
+    transition: filter 500ms ease-in-out;
+    
+    background-color: var(--rosa-escuro);
     text-decoration: none;
-    color: var(--branco);
 }
 
-.link-container a img{
-    max-height: 30%;
-}
 
 .link-container a p{
-    height: 30%;
     text-align: center;
+    color: var(--branco);
 }
 
 footer{
@@ -68,4 +67,13 @@ footer{
     padding: 20px 55px;
     text-align: center;
     color: var(--branco);
+}
+
+.link-container a:hover{
+    filter: brightness(100%);
+}
+
+.link-container:hover{
+    transform: scale(1.05);
+
 }
