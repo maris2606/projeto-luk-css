@@ -16,7 +16,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(145deg,#f3d4a2, #d87997,#f79492,#a6e1ec);
+    background: linear-gradient(145deg,#f3d4a2, #d87997,#f79492,#a6ccec, #a6e1ec);
     
 }
 
@@ -45,6 +45,10 @@ header a{
 
 header a:hover{
     background-color: #eda5bc;
+}
+
+header h1.Quicksand{
+    font-size: 34px;
 }
 
 .section-main{
@@ -228,3 +232,29 @@ footer{
        
     }
 }
+
+@font-face {
+    font-family: "Playwrite";
+    src: url("/assets/font/Playwrite/PlaywriteGBS-Italic-VariableFont_wght.ttf");
+    src: url("/assets/font/Playwrite/PlaywriteGBS-VariableFont_wght.ttf");
+ }
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("/assets/font/Quicksand/Quicksand/Quicksand-VariableFont_wght.ttf");
+ }
+
+.Playwrite{
+   font-family: 'Playwrite';
+   margin: 0;
+
+   font-size: 48px;
+   font-weight: 400;
+}
+
+.Quicksand {
+    font-family: 'Quicksand';
+    
+    font-size: 24px;
+ }
+ 
