@@ -19,6 +19,10 @@ body{
     
 }
 
+h2{
+    color: #b64468;
+}
+
 
 header{
     height: 20%;
@@ -30,12 +34,14 @@ header{
 header a{
     color: var(--branco);
     text-decoration: none;
-    font-size: large;
+    font-size: medium;
+    padding: 12px;
+    border-radius: 25px;
+    background-color:#d87997;
 }
 
 header a:hover{
-    color: var(--cinza);
-
+    background-color:#eda5bc ;
 }
 
 .section-main{
