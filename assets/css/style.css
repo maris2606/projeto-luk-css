@@ -21,9 +21,12 @@ body{
 }
 
 h2{
+    color:blue;
+}
+/*exemplo de Cascata*/
+h2{
     color: #b64468;
 }
-
 
 header{
     height: 20%;
@@ -31,7 +34,7 @@ header{
     padding: 30px 70px;
     color: var(--branco);
 }
-
+/*exemplo de Especificidade*/
 header a{
     color: var(--branco);
     text-decoration: none;
@@ -61,7 +64,7 @@ header h1.Quicksand{
     min-height: 80vh;
     align-items: stretch;
 }
-
+/*exemplo de Herança*/
 .section-main .link-container{
     width: 30%;
     transition: transform 300ms ease-in-out;
@@ -166,7 +169,7 @@ footer{
         
     }
 }
-
+/*MEDIA QUERIES:*/
 /* tablet */
 @media(min-width: 768px) {
  
@@ -233,6 +236,7 @@ footer{
     }
 }
 
+/*importação de fontes*/
 @font-face {
     font-family: "Playwrite";
     src: url("/assets/font/Playwrite/PlaywriteGBS-Italic-VariableFont_wght.ttf");
