@@ -34,6 +34,7 @@ header{
     padding: 30px 70px;
     color: var(--branco);
 }
+
 /*exemplo de Especificidade*/
 header a{
     color: var(--branco);
@@ -64,6 +65,7 @@ header h1.Quicksand{
     min-height: 80vh;
     align-items: stretch;
 }
+
 /*exemplo de Herança*/
 .section-main .link-container{
     width: 30%;
